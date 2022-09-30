@@ -14,7 +14,7 @@ class ChangeBackgroundActivity : AppCompatActivity() {
     }
 
     fun onGoClick(view: View?) {
-        val mainView = findViewById<View>(android.R.id.content)
+        val mainView = findViewById<View>(android.R.id.background)
         mainView.setBackgroundColor(nextColor)
     }
 
